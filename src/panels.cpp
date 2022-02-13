@@ -1848,7 +1848,7 @@ static std::vector<window_panel> initialize_default_label_narrow_panels()
                                     -1, 32, true, default_render, true ) );
 #endif // TILES
     ret.emplace_back( window_panel( draw_ai_goal, "AI Needs", to_translation( "AI Needs" ),
-                                    1, 32, false ) );
+                                    2, 32, false ) );
 
     return ret;
 }
@@ -1903,7 +1903,7 @@ static std::vector<window_panel> initialize_default_label_panels()
                                     -1, 44, true, default_render, true ) );
 #endif // TILES
     ret.emplace_back( window_panel( draw_ai_goal, "AI Needs", to_translation( "AI Needs" ),
-                                    1, 44, false ) );
+                                    2, 44, false ) );
 
     return ret;
 }
