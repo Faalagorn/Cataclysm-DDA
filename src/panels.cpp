@@ -1133,7 +1133,7 @@ static void render_wind( const draw_args &args, const std::string &formatstr )
                string_format( formatstr, left_justify( _( "Wind" ), 5 ) ) );
 
     std::pair<std::string, nc_color> wind_pair = display::wind_text_color( u );
-    mvwprintz( w, point( 8, 0 ), wind_pair.second, wind_pair.first );
+    mvwprintz( w, point( 7, 0 ), wind_pair.second, wind_pair.first );
     wnoutrefresh( w );
 }
 
